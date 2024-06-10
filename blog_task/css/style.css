@@ -1,0 +1,87 @@
+/* home banner */
+.main-banner {
+    width: 100%;
+    height: 91.2vh;
+    background: url("../img/saul.jpg");
+    background-size: 100%;
+
+}
+.main-blog-card {
+    width: 90%;
+}
+.category-aside {
+    width: 100%;
+}
+.main-blog{
+    width: 70%;
+}
+.aside-main {
+    width: 30%;
+}
+/*Admin -> table of the users*/
+.main-table {
+    width:90%;
+    max-width:700px;
+}
+/* likes and comments shape size*/
+.react-btns i {
+    font-size: 24px;
+    color: #222;
+    cursor: pointer;
+}
+/* likes and comments color*/
+.react-btns a {
+    text-decoration: none;
+    color: #222;
+    cursor: pointer;
+}
+.react-btns a:hover {
+    opacity: .8;
+}
+/* like thumb up color turn to blue when you stand on it */
+.react-btns .like:hover {
+    color: #0088ff;
+}
+/* like thumb up color turn to to one who already liked the review */
+.react-btns .liked {
+    color: #0088ff;
+}
+/* the color of the name of the user who commented */
+.comments .comment span {
+    color: #0088ff;
+}
+
+
+/* welcome word */
+.wel h1 {
+    font-style: italic;
+	color: #e38d0c;
+	font-size: 60px;
+    padding: 250px 480px;
+}
+
+/* image for the sign up / log in */
+.main-out-image {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: url("../img/b.jpg");
+    background-size: 100%;
+    z-index: -1;
+
+}
+
+/* make the window flixable for small screens */
+@media only screen and (max-aspect-ratio: 16/9) {
+    /* for mobile phones (small screens) */
+    .aside-main {
+        display: none;
+    }
+    .main-blog-card {
+        width: 100%;
+    }
+    .main-blog{
+        width: 100%;
+    }
+
+   }
